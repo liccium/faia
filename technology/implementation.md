@@ -26,11 +26,7 @@ The FAIA attribution framework is integrated into the [**Liccium platform**](htt
 
 Users can choose from a set of standardised **Attribution Flags** that reflect the degree and nature of AI’s contribution. These include categories such as:
 
-* Human-Created Content (HCC)
-* AI-Assisted Content (AAC)
-* AI-Generated Content (AIG)
-* Human-Edited AI Content (HEAIG)
-* AI-Supported Editorial Processes (AISEP)
+<table><thead><tr><th width="87.62890625" align="center">Flage Code</th><th width="196.65625">Name</th><th>Description</th></tr></thead><tbody><tr><td align="center">HCC</td><td>Human-Created Content</td><td>Content created and edited entirely by humans. May involve digital tools, but no AI involvement at any stage.</td></tr><tr><td align="center">AAE</td><td>AI-Assisted Editing</td><td>AI is used only after initial creation—for grammar, formatting, cleanup, upscaling, or similar editorial improvements. No AI-generated content added.</td></tr><tr><td align="center">AAC</td><td>AI-Assisted Contribution</td><td>AI contributes during the creation process, such as suggesting content, generating fragments, or shaping drafts, under human direction and control.</td></tr><tr><td align="center">ACO</td><td>AI–Human Co-Creation</td><td>AI and human share creative responsibility. Content results from iterative collaboration or joint authorship between human and AI.</td></tr><tr><td align="center">AGC</td><td>AI-Generated Content</td><td>AI is the primary creator. Human input is limited to initiating or curating. Little to no human editing or creative direction is applied post-output.</td></tr></tbody></table>
 
 This classification ensures consistent disclosure across diverse media formats and sectors.
 
