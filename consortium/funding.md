@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Funding
 
 The FAIA (Fair AI Attribution) project is made possible through support from the Dutch innovation program: [**Responsible AI in de praktijk**](https://www.sidnfonds.nl/nieuws/call-responsible-ai-in-praktijk)**.**

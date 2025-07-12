@@ -1,48 +1,60 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Vocabulary
 
 ## Attribution Flags
 
-At the heart of the FAIA framework is a controlled vocabulary designed to transparently and consistently disclose the role of AI in the content creation process. This vocabulary introduces standardised **Attribution Flags** that classify content based on how and to what extent AI was involved.&#x20;
+The FAIA Vocabulary is designed to **transparently and consistently disclose the role of AI in the content creation process**. It provides a standardised way to describe how content is created, modified, or generated in workflows involving both human and AI contributions.
 
-<figure><img src="../.gitbook/assets/FAIA-slide_new.png" alt="" width="563"><figcaption><p>FAIA flags</p></figcaption></figure>
+Rather than defining a new set of terms, the vocabulary aligns with existing domain-specific standards where applicable and fills gaps with media-independent codes. It supports machine-readable declarations and integrates with provenance, attribution, and rights metadata systems.
 
-## FAIA Core Flag Set (_work in progress_)
+<figure><img src="../.gitbook/assets/FAIA Model (1).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="87.62890625" align="center">Flage Code</th><th width="196.65625">Name</th><th>Description</th></tr></thead><tbody><tr><td align="center">HCC</td><td>Human-Created Content</td><td>Content created and edited entirely by humans. May involve digital tools, but no AI involvement at any stage.</td></tr><tr><td align="center">AAE</td><td>AI-Assisted Editing</td><td>AI is used only after initial creation—for grammar, formatting, cleanup, upscaling, or similar editorial improvements. No AI-generated content added.</td></tr><tr><td align="center">AAC</td><td>AI-Assisted Contribution</td><td>AI contributes during the creation process, such as suggesting content, generating fragments, or shaping drafts, under human direction and control.</td></tr><tr><td align="center">ACO</td><td>AI–Human Co-Creation</td><td>AI and human share creative responsibility. Content results from iterative collaboration or joint authorship between human and AI.</td></tr><tr><td align="center">AGC</td><td>AI-Generated Content</td><td>AI is the primary creator. Human input is limited to initiating or curating. Little to no human editing or creative direction is applied post-output.</td></tr></tbody></table>
+## FAIA Flags (AI Involvement)
 
-This general-purpose taxonomy applies across media types – text, images, audio, and video – and forms the foundation for verifiable content declarations in the Liccium ecosystem.
+**FAIA Flags** classify the overall content at the top level, giving a quick indication of the degree of AI involvement:
 
-## **Alignment with Existing Standards and Frameworks**
+* **Human-Created Content (HCC)** – content produced without AI involvement.
+* **AI-Assisted Content (AAC)** – content where AI systems contributed to or modified human input.
+* **AI-Generated Content (AIG)** – content generated entirely or predominantly by AI systems.
 
-FAIA builds upon and complements existing classification efforts:
+These flags apply across media types – including text, images, audio, and video – and can be assigned at the asset or record level.
 
-* The vocabulary draws conceptual inspiration from the **IPTC Digital Source Type**, widely used in photo metadata, which introduces high-level source categories for digital content. FAIA generalizes this approach and applies it uniformly across media formats and publishing contexts.\
+## Activity Types (What Was Done)
+
+**Activity Types** describe, with more granularity, what was done to the content. They indicate specific operations such as editing, summarisation, transformation, or full generation.
+
+FAIA supports the use of established vocabularies:
+
+* **IPTC Digital Source Type**\
+  Widely adopted in photo metadata, this vocabulary distinguishes between original, edited, and AI-generated visual content.\
   [See IPTC guidance](https://www.iptc.org/std/photometadata/documentation/userguide/#_guidance_for_using_digital_source_type)
-* FAIA is also designed to integrate with more domain-specific frameworks like the **STM Association’s AI Classification for Manuscript Preparation**, which focuses on the concrete ways AI tools are used during the research and editorial process (e.g., summarisation, translation, visualisation).\
+* **STM AI Classification**\
+  Developed by the STM Association, this schema identifies how AI tools are used during manuscript preparation – including classification, translation, summarisation, or visualisation.\
   [See STM report](https://stm-assoc.org/new-stm-draft-report-classifying-ai-use-in-manuscript-preparation/)
 
-While STM’s system zooms in on **how** AI was used, FAIA answers a broader question: **what** is the content, in terms of origin and AI involvement. FAIA and STM can be layered together – for example, a document declared as _AI-Assisted Content (AAC)_ under FAIA may include STM-style annotations such as “AI-supported data visualization” or “AI-assisted translation.”
+Where such domain-specific vocabularies are not applicable, FAIA defines a set of **generic, media-independent activity types**, including:
 
-## **Future Interoperability**
+* `Original capture`
+* `Contribution`
+* `Transformation`
+* `Enhancement`
+* `Generation`
 
-FAIA recommends a modular approach where detailed activity labels from sector-specific frameworks are embedded within broader content-level declarations. This enables:
+These codes allow content operations to be described consistently across different sectors and tools.
 
-* Machine-readable metadata with consistent flags across sectors
-* Compatibility with editorial systems, registries, and compliance tools
-* Support for persistent, signed provenance records using technologies like Verifiable Credentials and ISCC
+## Actor (Who Did It)
 
-By integrating fine-grained classifications into FAIA’s general-purpose framework, content declarations can serve a wide range of stakeholders – from researchers and publishers to regulators and AI model developers – ensuring that AI attribution is both **transparent and technically actionable**.
+The **Actor** is the entity responsible for performing a declared activity. Each activity can be attributed to a an actor:
+
+* `Human Actor` – A person performed the activity.
+* `AI Actor` – An automated system performed the activity.
+
+This distinction clarifies authorship and responsibility and is essential for downstream use in rights, attribution, or provenance frameworks.
+
+## System Attribution (How It Was Done)
+
+If the actor is an AI system, FAIA includes a set of metadata fields to describe the system used:
+
+* **Tool** – Name of the interface or product (e.g. `"ChatGPT"`).
+* **Model** – Underlying model used (e.g. `"GPT-4o"`).
+* **Version** – Version number of the tool or model (e.g. `"4.0"`).
+* **Provider** – Entity providing the system (e.g. `"OpenAI"`).

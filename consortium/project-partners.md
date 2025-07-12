@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Project Partners
 
 The FAIA project (Fair AI Attribution) is a joint initiative that brings together expertise in data modelling, publishing standards, AI ethics, and verifiable declaration. Our consortium partners include:

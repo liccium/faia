@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Contact
 
 If you are interested in collaborating or piloting the FAIA framework, please get in touch with one of the project partners:&#x20;
