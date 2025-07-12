@@ -33,7 +33,7 @@ FAIA supports the use of established vocabularies:
 
 Where such domain-specific vocabularies are not applicable, FAIA defines a set of **generic, media-independent activity types**, including:
 
-* `Original capture`
+* `Capture`
 * `Contribution`
 * `Transformation`
 * `Enhancement`
