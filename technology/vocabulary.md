@@ -4,7 +4,7 @@ The FAIA Vocabulary is designed to **transparently and consistently disclose the
 
 Rather than defining a new set of terms, the vocabulary aligns with existing domain-specific standards where applicable and fills gaps with media-independent codes. It supports machine-readable declarations and integrates with provenance, attribution, and rights metadata systems.
 
-<figure><img src="../.gitbook/assets/FAIA Model (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/FAIA Model.png" alt=""><figcaption></figcaption></figure>
 
 ## FAIA Flags (AI Involvement)
 
@@ -28,21 +28,12 @@ FAIA supports the use of established vocabularies:
 Where such domain-specific vocabularies are not applicable, the FAIA project defines a set of **generic, media-independent activity types**, such as:
 
 * `Capture`
-* `Contribution`
-* `Transformation`
 * `Enhancement`
+* `Contribution`
 * `Generation`
+* `Transformation`
 
 These codes allow content operations to be described consistently across different media sectors and types.
-
-## Actor (Who Did It)
-
-The **Actor** is the entity responsible for performing a declared activity. Each activity type can be attributed to a an actor:
-
-* `Human Actor` – A person performed the activity.
-* `AI Actor` – An AI system performed the activity.
-
-This distinction clarifies authorship and responsibility and is essential for downstream use in rights, attribution, or provenance frameworks.
 
 ## System Attribution (How It Was Done)
 

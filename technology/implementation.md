@@ -30,14 +30,7 @@ Specifies the operation performed on or to the content. FAIA supports activity c
 * **STM** (for publishing workflows)
 * **FAIA** (generic cross-media activity types such as `faia:Contribution`, `faia:Enhancement`, or `faia:Generation`)
 
-#### **b. Actor**
-
-Each declared activity must be attributed to one of:
-
-* `Human Actor` – the operation was performed by a person
-* `AI Actor` – the operation was performed by an automated system
-
-#### **c. System Metadata (only if the actor is AI)**
+#### **b. System Metadata (only if the actor is AI)**
 
 If the activity was performed by an AI system, the following fields may be included to support reproducibility and audit:
 
