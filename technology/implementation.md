@@ -28,9 +28,9 @@ Specifies the operation performed on or to the content. FAIA supports activity c
 
 * **IPTC** (for image-related workflows)
 * **STM** (for publishing workflows)
-* **FAIA** (generic cross-media activity types such as `faia:Contribution`, `faia:Enhancement`, or `faia:Generation`)
+* **FAIA** (generic cross-media activity types)
 
-#### **b. System Metadata (only if the actor is AI)**
+#### **b. System Attribution**&#x20;
 
 If the activity was performed by an AI system, the following fields may be included to support reproducibility and audit:
 
