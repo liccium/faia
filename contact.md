@@ -34,6 +34,16 @@ If you are interested in collaborating or piloting the FAIA framework, please ge
 
 <i class="fa-apartment">:apartment:</i> [https://www.universiteitleiden.nl/en/staffmembers/alessa-gambardella](https://www.universiteitleiden.nl/en/staffmembers/alessa-gambardella#tab-1)&#x20;
 
+## **GO FAIR Foundation**
+
+<i class="fa-apartment">:apartment:</i> [https://gofair.foundation](https://www.gofair.foundation/)&#x20;
+
+<i class="fa-square-user">:square-user:</i> **Erik Schultes**
+
+<i class="fa-envelope">:envelope:</i> [erik@gofair.foundation](mailto:erik@gofair.foundation)
+
+<i class="fa-linkedin">:linkedin:</i> [Erik Schultes](https://www.linkedin.com/in/erik-schultes-39aa8ab/)&#x20;
+
 ## **Liccium**
 
 <i class="fa-apartment">:apartment:</i> [https://liccium.com/](https://liccium.com/)&#x20;
@@ -43,13 +53,3 @@ If you are interested in collaborating or piloting the FAIA framework, please ge
 <i class="fa-envelope">:envelope:</i> [https://liccium.com/contact](https://liccium.com/contact)&#x20;
 
 <i class="fa-linkedin">:linkedin:</i> [Sebastian Posth](https://www.linkedin.com/in/posth/)
-
-## **GO FAIR Foundation**
-
-<i class="fa-apartment">:apartment:</i> [https://gofair.foundation](https://www.gofair.foundation/)&#x20;
-
-<i class="fa-square-user">:square-user:</i> **Erik Schultes**
-
-<i class="fa-envelope">:envelope:</i> [erik@gofair.foundation](mailto:erik@gofair.foundation)
-
-<i class="fa-linkedin">:linkedin:</i> [Erik Schultes](https://www.linkedin.com/in/erik-schultes-39aa8ab/)
