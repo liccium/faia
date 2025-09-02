@@ -20,4 +20,4 @@
 
 ***
 
-* [Contact](contact.md)
+* [Contact and Team](contact.md)
