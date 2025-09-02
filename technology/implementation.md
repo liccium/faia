@@ -22,7 +22,7 @@ _<mark style="color:red;">Be aware that the framework is still in development!</
 
 To increase transparency and support downstream processing, FAIA supports additional metadata describing **what was done**, **who did it**, and **how**:
 
-#### **a. Activity Type**
+#### **a. AI Contribution**
 
 Specifies the operation performed on or to the content. FAIA supports activity codes from:
 
