@@ -4,52 +4,27 @@ If you are interested in collaborating or piloting the FAIA framework, please ge
 
 ## **Leiden University**
 
-### Leiden University / LACDR&#x20;
+| <h3><i class="fa-square-user">:square-user:</i> <strong>Sylvia Le Dévédec</strong> </h3>                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Leiden University / LACDR</p><p><i class="fa-apartment">:apartment:</i> <a href="https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec">https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec</a></p><p><i class="fa-envelope">:envelope:</i> <a href="mailto:s.e.ledevedec@lacdr.leidenuniv.nl">s.e.ledevedec@lacdr.leidenuniv.nl</a></p><p><i class="fa-linkedin">:linkedin:</i> <a href="https://www.linkedin.com/in/sylvia-le-d%C3%A9v%C3%A9dec-a4b743a/">Sylvia Le Dévédec</a></p> |
 
-<i class="fa-apartment">:apartment:</i> [https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec](https://www.universiteitleiden.nl/en/staffmembers/sylvia-le-devedec)
+| <h3><i class="fa-square-user">:square-user:</i> <strong>Kristina Hettne</strong></h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Leiden University / Centre for Digital Scholarship</p><p><i class="fa-apartment">:apartment:</i> <a href="https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship">https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship</a></p><p><i class="fa-envelope">:envelope:</i> <a href="mailto:k.m.hettne@library.leidenuniv.nl">k.m.hettne@library.leidenuniv.nl</a></p><p><i class="fa-apartment">:apartment:</i> <a href="https://www.universiteitleiden.nl/en/staffmembers/kristina-hettne#tab-1">https://www.universiteitleiden.nl/en/staffmembers/kristina-hettne#tab-1 </a></p> |
 
-<i class="fa-square-user">:square-user:</i> **Sylvia Le Dévédec**
-
-<i class="fa-envelope">:envelope:</i> [s.e.ledevedec@lacdr.leidenuniv.nl](mailto:s.e.ledevedec@lacdr.leidenuniv.nl)
-
-<i class="fa-linkedin">:linkedin:</i> [Sylvia Le Dévédec](https://www.linkedin.com/in/sylvia-le-d%C3%A9v%C3%A9dec-a4b743a/)
-
-### Leiden University / Centre for Digital Scholarship:
-
-<i class="fa-apartment">:apartment:</i> [https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship](https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship)
-
-<i class="fa-square-user">:square-user:</i> **Kristina Hettne**
-
-<i class="fa-envelope">:envelope:</i> [k.m.hettne@library.leidenuniv.nl](mailto:k.m.hettne@library.leidenuniv.nl)
-
-<i class="fa-apartment">:apartment:</i> [https://www.universiteitleiden.nl/en/staffmembers/kristina-hettne#tab-1 ](https://www.universiteitleiden.nl/en/staffmembers/kristina-hettne#tab-1)
-
-### Leiden University / Science Faculty:
-
-<i class="fa-apartment">:apartment:</i> [https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship](https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship)&#x20;
-
-<i class="fa-square-user">:square-user:</i> **Alessa Gambardella**
-
-<i class="fa-envelope">:envelope:</i> [a.a.gambardella@science.leidenuniv.nl](mailto:a.a.gambardella@science.leidenuniv.nl)&#x20;
-
-<i class="fa-apartment">:apartment:</i> [https://www.universiteitleiden.nl/en/staffmembers/alessa-gambardella](https://www.universiteitleiden.nl/en/staffmembers/alessa-gambardella#tab-1)&#x20;
+| <h3><i class="fa-square-user">:square-user:</i> <strong>Alessa Gambardella</strong></h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Leiden University / Science Faculty</p><p><i class="fa-apartment">:apartment:</i> <a href="https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship">https://www.library.universiteitleiden.nl/about-us/centre-for-digital-scholarship</a> </p><p><i class="fa-envelope">:envelope:</i> <a href="mailto:a.a.gambardella@science.leidenuniv.nl">a.a.gambardella@science.leidenuniv.nl</a> </p><p><i class="fa-apartment">:apartment:</i> <a href="https://www.universiteitleiden.nl/en/staffmembers/alessa-gambardella#tab-1">https://www.universiteitleiden.nl/en/staffmembers/alessa-gambardella</a> </p> |
 
 ## **GO FAIR Foundation**
 
-<i class="fa-apartment">:apartment:</i> [https://gofair.foundation](https://www.gofair.foundation/)&#x20;
-
-<i class="fa-square-user">:square-user:</i> **Erik Schultes**
-
-<i class="fa-envelope">:envelope:</i> [erik@gofair.foundation](mailto:erik@gofair.foundation)
-
-<i class="fa-linkedin">:linkedin:</i> [Erik Schultes](https://www.linkedin.com/in/erik-schultes-39aa8ab/)&#x20;
+| <h3><i class="fa-square-user">:square-user:</i> <strong>Erik Schultes</strong></h3>                                                                                                                                                                                                                                                                               |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><i class="fa-apartment">:apartment:</i> <a href="https://www.gofair.foundation/">https://gofair.foundation</a> </p><p><i class="fa-envelope">:envelope:</i> <a href="mailto:erik@gofair.foundation">erik@gofair.foundation</a></p><p><i class="fa-linkedin">:linkedin:</i> <a href="https://www.linkedin.com/in/erik-schultes-39aa8ab/">Erik Schultes</a> </p> |
 
 ## **Liccium**
 
-<i class="fa-apartment">:apartment:</i> [https://liccium.com/](https://liccium.com/)&#x20;
+| <h3><i class="fa-square-user">:square-user:</i> <strong>Sebastian Posth</strong> </h3>                                                                                                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><i class="fa-apartment">:apartment:</i> <a href="https://liccium.com/">https://liccium.com/</a> </p><p><i class="fa-envelope">:envelope:</i> <a href="https://liccium.com/contact">https://liccium.com/contact</a> </p><p><i class="fa-linkedin">:linkedin:</i> <a href="https://www.linkedin.com/in/posth/">Sebastian Posth</a></p> |
 
-<i class="fa-square-user">:square-user:</i> **Sebastian Posth**
-
-<i class="fa-envelope">:envelope:</i> [https://liccium.com/contact](https://liccium.com/contact)&#x20;
-
-<i class="fa-linkedin">:linkedin:</i> [Sebastian Posth](https://www.linkedin.com/in/posth/)
