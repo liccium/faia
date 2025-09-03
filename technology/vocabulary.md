@@ -4,7 +4,7 @@ The FAIA Vocabulary is designed to **transparently and consistently disclose the
 
 Rather than defining a new set of terms, the vocabulary aligns with existing domain-specific standards where applicable and fills gaps with media-independent codes. It supports machine-readable declarations and integrates with provenance, attribution, and rights metadata systems.
 
-<figure><img src="../.gitbook/assets/FAIA Model.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/FAIA Model.jpg" alt=""><figcaption></figcaption></figure>
 
 ## FAIA Flags (AI Involvement)
 
