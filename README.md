@@ -2,7 +2,7 @@
 
 ## The FAIA Project
 
-The **FAIA project** (FAIR AI Attribution) develops an open, structured framework to disclose the role of artificial intelligence in content creation. FAIA is developed by [**Liccium**](https://liccium.com/) in collaboration with [**Leiden University**](https://www.universiteitleiden.nl/en) and the [**GO FAIR Foundation**](https://www.gofair.foundation/), addressing a growing need for transparency in digital publishing and research.&#x20;
+The **FAIA project** (FAIR AI Attribution) develops an open, structured framework to disclose the role of artificial intelligence in content creation. FAIA is developed by [**Liccium**](https://liccium.com/) in collaboration with [**Leiden University**](https://www.universiteitleiden.nl/en) and the [**GO FAIR Foundation**](https://www.gofair.foundation/), addressing a growing need for transparency in digital publishing and research.
 
 As AI tools become more common in writing, publishing, and media production, transparency is no longer optional - it’s essential for trust, credibility, and compliance. With the increasing integration of generative AI tools – ranging from writing assistants to full content generators – creators, publishers, and academic researchers need a consistent and verifiable way to indicate whether and how AI has contributed to the content. FAIA provides that mechanism.
 
@@ -42,3 +42,9 @@ The FAIA framework contributes to more responsible and transparent publishing pr
 * Allowing **platforms, repositories, and downstream users** to filter, assess, or verify content based on persistent, transparent attribution metadata.
 
 While FAIA is intended as a cross-sector solution applicable to all types of digital media, the first implementation focuses on academic publishing and trade book workflows. By embedding transparency into the metadata layer of content itself, FAIA enhances trust in human-AI collaboration and provides a foundation for long-term accountability in digital knowledge production.
+
+## Download the FAIA 1-pager
+
+{% file src=".gitbook/assets/2025-09-04-FAIA-1-Pager.pdf" %}
+FAIA 1-pager
+{% endfile %}
