@@ -35,9 +35,18 @@ These codes allow content operations to be described consistently across differe
 
 ## System Attribution (How It Was Done)
 
-If the actor is an AI system, FAIA includes a set of metadata fields to describe the system used:
+Transparency about AI involvement can include providing details about which specific systems were used, though these details are optional. FAIA uses two key attribution fields:
 
-* **Tool** – Name of the interface or product (e.g. `"ChatGPT"`).
-* **Model** – Underlying model used (e.g. `"GPT-4o"`).
-* **Version** – Version number of the tool or model (e.g. `"4.0"`).
-* **Provider** – Entity providing the system (e.g. `"OpenAI"`).
+**Provider**
+
+Definition: The company, organization, or entity that publishes or operates the AI tool or model. This identifies who is responsible for developing, training, and deploying the AI system.
+
+Examples: `OpenAI, Anthropic, Stability AI, Adobe, ElevenLabs, Meta, Google DeepMind`
+
+**Model**
+
+Definition: The specific AI model or family of models that generated or modified the content. This goes beyond the provider to identify the particular system version or architecture used.
+
+Examples: `GPT-4o, Claude-3.5-Sonnet, Stable-Diffusion-v3, Whisper-large-v3, Sora-1.0, DALL-E-3, Llama-3.1-405B`
+
+<br>
