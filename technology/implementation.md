@@ -12,7 +12,7 @@ The FAIA attribution framework is integrated into the [**Liccium platform**](htt
 
 Users can choose from a set of standardised **Flags** that reflect the degree and nature of AI’s contribution. These include the following categories:
 
-<table><thead><tr><th width="139.49609375" align="center">Flag</th><th width="196.65625">Name</th><th>Description</th></tr></thead><tbody><tr><td align="center">HCC</td><td>Human-Created Content</td><td>Content created and edited exclusively by humans. While digital tools may be used, no AI systems are involved at any stage of the creative or editorial process.</td></tr><tr><td align="center">AAC</td><td>AI-Assisted Content</td><td>Content where a human remains the primary author but AI systems contributed during the process. This may include suggestions, generation of fragments, or refinement steps performed under human supervision and editorial control.</td></tr><tr><td align="center">AIG</td><td>AI-Generated Content</td><td>Content generated predominantly or entirely by an AI system. The AI is the main creative agent. Human input may be limited to initiating a prompt or selecting from outputs, with minimal or no human editing or authorship applied.</td></tr></tbody></table>
+<table><thead><tr><th width="139.49609375" align="center">Flag</th><th width="196.65625">Name</th><th>Description</th></tr></thead><tbody><tr><td align="center">HCC</td><td>Human-Created Content</td><td>Content created, generated and edited exclusively by humans or human-controlled instruments. While digital tools such as word processors, image editors, or audio software may be used, no generative AI systems are involved at any stage of the creative or editorial process.</td></tr><tr><td align="center">AAC</td><td>AI-Assisted Content</td><td>Content where a human or a human-controlled instrument remains the primary creator and AI systems contributed during the creation process to various degrees. This may include AI-generated input that humans or human-controlled instruments accept or reject, generation of content fragments that humans or human-controlled instruments integrate into larger works, or refinement steps performed under direct human supervision and editorial control.</td></tr><tr><td align="center">AIG</td><td>AI-Generated Content</td><td>Content generated predominantly or entirely by an AI system, where the AI serves as the main creative agent. Human input is limited to initiating prompts, selecting among AI-generated outputs, or making minor adjustments that do not materially alter structure, substance, or expressive intent. The resulting content is accepted largely as produced by the AI, with no substantive human editing or creatorship.</td></tr></tbody></table>
 
 These flags provide high-level signals of AI involvement. It is intended for use in content metadata, declarations, digital packaging, or registry records.
 
@@ -26,7 +26,6 @@ To increase transparency and support downstream processing, FAIA supports additi
 
 Specifies the operation performed on or to the content. FAIA supports activity codes from:
 
-* **IPTC** (for image-related workflows)
 * **STM** (for publishing workflows)
 * **FAIA** (generic cross-media activity types)
 
@@ -34,10 +33,8 @@ Specifies the operation performed on or to the content. FAIA supports activity c
 
 If the activity was performed by an AI system, the following fields may be included to support reproducibility and audit:
 
-* **Tool** – Name of the system or interface (e.g. `"ChatGPT"`)
-* **Model** – Underlying model (e.g. `"GPT-4o"`)
-* **Version** – Model or tool version (e.g. `"4.0"`)
 * **Provider** – The organization offering the AI system (e.g. `"OpenAI"`)
+* **Model** – Underlying model (e.g. `"GPT-4o"`)
 
 _<mark style="color:red;">Be aware that the framework is still in development!</mark>_&#x20;
 
