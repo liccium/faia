@@ -33,8 +33,8 @@ Specifies the operation performed on or to the content. FAIA supports activity c
 
 If the activity was performed by an AI system, the following fields may be included to support reproducibility and audit:
 
-* **Provider** – The organization offering the AI system (e.g. `"OpenAI"`)
-* **Model** – Underlying model (e.g. `"GPT-4o"`)
+* **System** – The AI system or engine used to generate or modify the content
+* **Version** – The particular version of the AI system used.
 
 _<mark style="color:red;">Be aware that the framework is still in development!</mark>_&#x20;
 

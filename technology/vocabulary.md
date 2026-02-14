@@ -4,7 +4,7 @@ The FAIA Vocabulary is designed to **transparently and consistently disclose the
 
 Rather than defining a new set of terms, the vocabulary aligns with existing domain-specific standards where applicable and fills gaps with media-independent codes. It supports machine-readable declarations and integrates with provenance, attribution, and rights metadata systems.
 
-<figure><img src="../.gitbook/assets/Layer.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Flag Overview.jpg" alt=""><figcaption></figcaption></figure>
 
 ## FAIA Flags (AI Involvement)
 
@@ -32,18 +32,20 @@ These codes allow content operations to be described consistently across differe
 
 ## System Attribution
 
-Transparency about AI involvement can include providing details about which specific systems were used, though these details are optional. FAIA uses two key attribution fields:
+Transparency about AI involvement should go beyond simply stating that “AI was used.” In many contexts, it is important to document which specific AI system was applied and which version of that system was in use at the time of content creation or modification. Different systems – and different releases of the same system – may vary in capabilities, training data composition, behaviour, limitations, and licensing conditions. Without this level of precision, disclosures remain too generic to be practically meaningful.
 
-**Provider**
+FAIA therefore introduces System Attribution using two structured fields:
 
-Definition: The company, organization, or entity that publishes or operates the AI tool or model. This identifies who is responsible for developing, training, and deploying the AI system.
+**System**
 
-Examples: `OpenAI, Anthropic, Stability AI, Adobe, ElevenLabs, Meta, Google DeepMind`
+The AI system or engine used to generate or modify the content. This identifies the technical system responsible for producing the output, using its official designation.
 
-**Model**
+Examples: `ChatGPT, DALL-E, Google Gemini, Claude`
 
-Definition: The specific AI model or family of models that generated or modified the content. This goes beyond the provider to identify the particular system version or architecture used.
+**Version**
 
-Examples: `GPT-4o, Claude-3.5-Sonnet, Stable-Diffusion-v3, Whisper-large-v3, Sora-1.0, DALL-E-3, Llama-3.1-405B`
+Definition: The specific release or version of the AI system used. This follows the naming or numbering scheme defined by the system’s operator, where available.
+
+Examples: `GPT-5.2, Claude Opus 4.6`
 
 <br>
