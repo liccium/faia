@@ -10,7 +10,19 @@ Rather than defining a new set of terms, the vocabulary aligns with existing dom
 
 **FAIA Flags** provide high-level signals of AI involvement. These flags can be applied across media types – including text, images, audio, and video – and assigned at the asset or record level.
 
-<table><thead><tr><th width="78.13671875" align="center">Flag</th><th width="105.33203125">Name</th><th>Description</th></tr></thead><tbody><tr><td align="center">HCC</td><td>Human-Created Content</td><td>Content created, generated and edited exclusively by humans or human-controlled instruments. While digital tools such as word processors, image editors, or audio software may be used, no generative AI systems are involved at any stage of the creative or editorial process.</td></tr><tr><td align="center">AAC</td><td>AI-Assisted Content</td><td>Content where a human or a human-controlled instrument remains the primary creator and AI systems contributed during the creation process to various degrees. This may include AI-generated input that humans or human-controlled instruments accept or reject, generation of content fragments that humans or human-controlled instruments integrate into larger works, or refinement steps performed under direct human supervision and editorial control.</td></tr><tr><td align="center">AIG</td><td>AI-Generated Content</td><td>Content generated predominantly or entirely by an AI system, where the AI serves as the main creative agent. Human input is limited to initiating prompts, selecting among AI-generated outputs, or making minor adjustments that do not materially alter structure, substance, or expressive intent. The resulting content is accepted largely as produced by the AI, with no substantive human editing or creatorship.</td></tr></tbody></table>
+**Human-Created Content:**
+
+<div align="left"><figure><img src="../.gitbook/assets/Property 1=HCC.svg" alt=""><figcaption></figcaption></figure></div>
+
+AI-Assisted Content
+
+<div align="left"><figure><img src="../.gitbook/assets/Property 1=AAC.svg" alt=""><figcaption></figcaption></figure></div>
+
+AI-Generated Content
+
+<div align="left"><figure><img src="../.gitbook/assets/Property 1=AIG.svg" alt=""><figcaption></figcaption></figure></div>
+
+<table><thead><tr><th width="78.13671875" align="center">Flag</th><th width="105.33203125">Name</th><th>Description</th></tr></thead><tbody><tr><td align="center"><mark style="background-color:$success;">HCC</mark></td><td>Human-Created Content</td><td>Content created, generated and edited exclusively by humans or human-controlled instruments. While digital tools such as word processors, image editors, or audio software may be used, no generative AI systems are involved at any stage of the creative or editorial process.</td></tr><tr><td align="center"><mark style="color:$primary;background-color:yellow;">AAC</mark></td><td>AI-Assisted Content</td><td>Content where a human or a human-controlled instrument remains the primary creator and AI systems contributed during the creation process to various degrees. This may include AI-generated input that humans or human-controlled instruments accept or reject, generation of content fragments that humans or human-controlled instruments integrate into larger works, or refinement steps performed under direct human supervision and editorial control.</td></tr><tr><td align="center"><mark style="background-color:blue;">AIG</mark></td><td>AI-Generated Content</td><td>Content generated predominantly or entirely by an AI system, where the AI serves as the main creative agent. Human input is limited to initiating prompts, selecting among AI-generated outputs, or making minor adjustments that do not materially alter structure, substance, or expressive intent. The resulting content is accepted largely as produced by the AI, with no substantive human editing or creatorship.</td></tr></tbody></table>
 
 ## Activity Types
 
