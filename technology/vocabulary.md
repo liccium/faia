@@ -14,11 +14,11 @@ Rather than defining a new set of terms, the vocabulary aligns with existing dom
 
 <div align="left"><figure><img src="../.gitbook/assets/Property 1=HCC.svg" alt=""><figcaption></figcaption></figure></div>
 
-AI-Assisted Content
+**AI-Assisted Content:**
 
 <div align="left"><figure><img src="../.gitbook/assets/Property 1=AAC.svg" alt=""><figcaption></figcaption></figure></div>
 
-AI-Generated Content
+**AI-Generated Content:**
 
 <div align="left"><figure><img src="../.gitbook/assets/Property 1=AIG.svg" alt=""><figcaption></figcaption></figure></div>
 

@@ -1,5 +1,7 @@
 # Table of contents
 
+* [FAIA Registry Explorer](https://faia.io/)
+
 ## Introduction
 
 * [FAIR AI Attribution (FAIA)](README.md)
@@ -8,7 +10,6 @@
 
 * [Vocabulary](technology/vocabulary.md)
 * [Implementation](technology/implementation.md)
-* [Examples](technology/examples.md)
 
 ## Consortium
 
