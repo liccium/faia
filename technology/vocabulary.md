@@ -45,19 +45,19 @@ The flags describe the degree of human authorship and responsibility rather than
 
 <div align="left"><figure><img src="../.gitbook/assets/Property 1=HCC.svg" alt=""><figcaption></figcaption></figure></div>
 
-**Human-Created Content**
+### **Human-Created Content**
 
 Content created, generated and edited exclusively by humans or human-controlled instruments. While digital tools such as word processors, image editors, or audio software may be used, no generative AI systems are involved at any stage of the creative or editorial process.
 
 <div align="left"><figure><img src="../.gitbook/assets/Property 1=AAC.svg" alt=""><figcaption></figcaption></figure></div>
 
-**AI-Assisted Content**
+### **AI-Assisted Content**
 
 Content where a human or a human-controlled instrument remains the primary creator and AI systems contributed during the creation process to various degrees. This may include AI-generated input that humans or human-controlled instruments accept or reject, generation of content fragments that humans or human-controlled instruments integrate into larger works, or refinement steps performed under direct human supervision and editorial control.
 
 <div align="left"><figure><img src="../.gitbook/assets/Property 1=AIG.svg" alt=""><figcaption></figcaption></figure></div>
 
-**AI-Generated Content**
+### **AI-Generated Content**
 
 Content generated predominantly or entirely by an AI system, where the AI serves as the main creative agent. Human input is limited to initiating prompts, selecting among AI-generated outputs, or making minor adjustments that do not materially alter structure, substance, or expressive intent. The resulting content is accepted largely as produced by the AI, with no substantive human editing or creatorship.
 
@@ -65,9 +65,31 @@ Content generated predominantly or entirely by an AI system, where the AI serves
 
 Activity Codes describe how AI systems were used during the content lifecycle. While the FAIA Flags classify the overall nature of the resulting content, Activity Types describe the structural role AI played within the workflow.
 
+### Co-Creation
 
+AI and humans jointly produce content through an interactive process. The AI generates substantial parts of the content based directly on human-created material and structure. The resulting expressive contributions are interwoven and not cleanly separable.
 
-<table><thead><tr><th width="140.984375">Code</th><th width="189.19140625">What the human provides</th><th width="293.98046875">What the AI provides</th></tr></thead><tbody><tr><td><strong>Co-Creation</strong></td><td>Core ideas, structure, or source material</td><td>Independent sections, elements, or content developed jointly</td></tr><tr><td><strong>Contribution</strong></td><td>Overall structure and intent</td><td>Discrete components integrated by the human</td></tr><tr><td><strong>Enhancement</strong></td><td>Existing content</td><td>Extensions or quality improvements</td></tr><tr><td><strong>Refinement</strong></td><td>Existing content</td><td>Minor surface-level or technical adjustments</td></tr><tr><td><strong>Transformation</strong></td><td>Prompt or task definition</td><td>Autonomous re-expression into another form</td></tr><tr><td><strong>Analysis</strong></td><td>Prompt or analytical instruction</td><td>Automated extraction, classification, or metadata generation</td></tr></tbody></table>
+### Contribution
+
+AI produces discrete content elements that are incorporated into a primarily human-created work. The human determines the overall structure, intent, and final form of the resulting output.
+
+### Enhancement
+
+AI modifies or extends existing human-created content to improve quality, clarity, richness, completeness, or structure while preserving the original expressive intent and authorship of the source material.
+
+### Refinement
+
+AI performs limited adjustments that preserve the existing structure, meaning, expressive intent, and authorship of the content.
+
+### Transformation
+
+AI converts existing content into another form, modality, or representation while preserving semantic equivalence or maintaining a close relationship to the original content.
+
+### Analysis
+
+AI interprets existing content to derive structure, features, metadata, meaning, or analytical insights.
+
+<table><thead><tr><th width="140.984375">Code</th><th width="201.7265625">What the human provides</th><th width="270.11328125">What the AI provides</th></tr></thead><tbody><tr><td><strong>Co-Creation</strong></td><td>Core ideas, structure, or source material</td><td>Independent sections, elements, or content developed jointly</td></tr><tr><td><strong>Contribution</strong></td><td>Overall structure and intent</td><td>Discrete components integrated by the human</td></tr><tr><td><strong>Enhancement</strong></td><td>Existing content</td><td>Extensions or quality improvements</td></tr><tr><td><strong>Refinement</strong></td><td>Existing content</td><td>Minor surface-level or technical adjustments</td></tr><tr><td><strong>Transformation</strong></td><td>Prompt or task definition</td><td>Autonomous re-expression into another form</td></tr><tr><td><strong>Analysis</strong></td><td>Prompt or analytical instruction</td><td>Automated extraction, classification, or metadata generation</td></tr></tbody></table>
 
 FAIA is designed to complement existing sector-specific standards and metadata ecosystems where appropriate. Examples include:
 
@@ -83,13 +105,13 @@ Different systems and model versions may differ substantially in behaviour, capa
 
 FAIA supports two structured attribution fields:
 
-**System**
+### **System**
 
 The AI system or engine used to generate or modify the content. This identifies the technical system responsible for producing the output, using its official designation.
 
 Examples: `ChatGPT, DALL-E, Google Gemini, Claude`
 
-**Version**
+### **Version**
 
 Definition: The specific release or version of the AI system used. This follows the naming or numbering scheme defined by the system’s operator, where available.
 

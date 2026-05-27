@@ -21,56 +21,38 @@ layout:
 
 # Reference Implementations
 
-## The Liccium Platform
+FAIA supports different levels of implementation depending on the required level of persistence, verification, and infrastructure integration.
 
-The FAIA attribution framework is integrated into the [**Liccium platform**](https://liccium.com/) as a plugin. This enables creators, researchers, publishers, and platforms to declare AI involvement directly within their content authentication workflows. Designed to be intuitive yet technically robust, the plugin supports transparency, compliance, and interoperability by making AI contributions to content creation verifiable and persistently linked to the original work.
+## FAIA Statement Generator
 
-## How does it work?
+The FAIA Statement Generator provides a lightweight mechanism for creating portable AI attribution statements using the FAIA vocabulary.
 
-### **1. Select the Type of AI Involvement**
+[https://www.faia.io/statement-generator](https://www.faia.io/statement-generator)
 
-Users can choose from a set of standardised **Flags** that reflect the degree and nature of AI’s contribution. These include the following categories:
+The generated statements can be embedded into websites, attached to publications, or shared alongside digital content. They support both human-readable and machine-readable disclosure of AI involvement.
 
-<table><thead><tr><th width="139.49609375" align="center">Flag</th><th width="196.65625">Name</th><th>Description</th></tr></thead><tbody><tr><td align="center">HCC</td><td>Human-Created Content</td><td>Content created, generated and edited exclusively by humans or human-controlled instruments. While digital tools such as word processors, image editors, or audio software may be used, no generative AI systems are involved at any stage of the creative or editorial process.</td></tr><tr><td align="center">AAC</td><td>AI-Assisted Content</td><td>Content where a human or a human-controlled instrument remains the primary creator and AI systems contributed during the creation process to various degrees. This may include AI-generated input that humans or human-controlled instruments accept or reject, generation of content fragments that humans or human-controlled instruments integrate into larger works, or refinement steps performed under direct human supervision and editorial control.</td></tr><tr><td align="center">AIG</td><td>AI-Generated Content</td><td>Content generated predominantly or entirely by an AI system, where the AI serves as the main creative agent. Human input is limited to initiating prompts, selecting among AI-generated outputs, or making minor adjustments that do not materially alter structure, substance, or expressive intent. The resulting content is accepted largely as produced by the AI, with no substantive human editing or creatorship.</td></tr></tbody></table>
+However, these statements are not persistently bound to the content and are not independently verifiable. Without cryptographic signing, registry publication, and persistent content–metadata binding, there is no reliable mechanism to verify authorship, integrity, or long-term association with the underlying asset.
 
-These flags provide high-level signals of AI involvement. It is intended for use in content metadata, declarations, digital packaging, or registry records.
+<figure><img src="../.gitbook/assets/CleanShot 2026-05-27 at 20.36.36@2x.png" alt=""><figcaption></figcaption></figure>
 
-_<mark style="color:red;">Be aware that the framework is still in development!</mark>_&#x20;
+## Liccium Reference Implementation
 
-### **2. Provide Contextual Metadata**
+The Liccium platform provides a reference implementation of persistent and verifiable FAIA declarations.
 
-To increase transparency and support downstream processing, FAIA supports additional metadata describing **what was done**, **who did it**, and **how**:
+The implementation combines:
 
-#### **a. AI Contribution**
+* ISCC-based content fingerprinting
+* machine-readable JSON-LD declaration metadata
+* cryptographic signatures and verifiable credentials
+* declaration APIs
+* federated registry infrastructure
 
-Specifies the operation performed on or to the content. FAIA supports activity codes from:
+Using the Liccium implementation, FAIA declarations can be:
 
-* **STM** (for publishing workflows)
-* **FAIA** (generic cross-media activity types)
+* created through applications or APIs
+* digitally signed by the declarant
+* persistently linked to digital content through ISCC identifiers
+* published to interoperable registry infrastructure
+* independently resolved and verified across platforms and workflows
 
-#### **b. System Attribution**&#x20;
-
-If the activity was performed by an AI system, the following fields may be included to support reproducibility and audit:
-
-* **System** – The AI system or engine used to generate or modify the content
-* **Version** – The particular version of the AI system used.
-
-_<mark style="color:red;">Be aware that the framework is still in development!</mark>_&#x20;
-
-### **3. Bind to the ISCC Code**
-
-All FAIA declarations are **cryptographically bound** to the **International Standard Content Code (ISCC)**, a content-derived identifier and ISO standard (ISO 24138). This ensures that attribution metadata remains uniquely and persistently associated with the content – even if the asset is modified and redistributed.
-
-### **4. Generate Verifiable, Timestamped Declarations**
-
-Every declaration is digitally signed using  **Verifiable Credential (VC)** or **DID keys** of the creator. The declaration is stored as a tamper-evident **JSON-LD file (nanopublication)**, including a trusted timestamp. This guarantees the authenticity and integrity of the AI attribution data.
-
-### **5. Register in the Liccium Registry**
-
-The declarations are published to a **public, decentralised registry** operated by Liccium, making them:
-
-* **Publicly resolvable** using content identifiers like the ISCC
-* **Searchable** for researchers, platforms, and compliance tools
-* **Auditable** under regulatory regimes such as the EU AI Act (e.g. Article 50 disclosure obligations)
-
-This registry ensures lasting transparency and verifiability in content attribution and provenance.
+The implementation includes the Liccium Declaration API, registry infrastructure, and user-facing applications supporting declaration creation, signing, publication, and verification workflows.
