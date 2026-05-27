@@ -1,5 +1,6 @@
 # Table of contents
 
+* [FAIA Statement Generator](https://www.faia.io/statement-generator)
 * [FAIA Registry Explorer](https://faia.io/)
 
 ## Introduction
