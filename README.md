@@ -62,13 +62,13 @@ Current prototype implementations developed within the FAIA project ecosystem in
 
 * the FAIA **Statement Generator:** \
   [https://www.faia.io/statement-generator](https://www.faia.io/statement-generator)
-* machine-readable attribution vocabularies and ontologies:\
+* **machine-readable attribution vocabularies and ontologies**:\
   [https://github.com/liccium/w3id.docs](https://github.com/liccium/w3id.docs)&#x20;
-* openly documented declaration APIs\
+* openly documented **declaration APIs**\
   [https://dev.liccium.com](https://dev.liccium.com/)
-* registry explorer infrastructure\
+* **registry explorer** infrastructure\
   [https://faia.io](https://faia.io/)
-* trust infrastructure based on digital signatures and verifiable credentials\
+* **trust infrastructure** based on digital signatures and verifiable credentials\
   [https://creatorcredentials.com](https://creatorcredentials.com/)
 
 Work is also ongoing on user-facing applications and federated registry infrastructure supporting broader ecosystem participation and interoperable deployment across independent platforms and services.
