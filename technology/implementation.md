@@ -1,10 +1,29 @@
-# Implementation
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
+# Reference Implementations
 
 ## The Liccium Platform
 
 The FAIA attribution framework is integrated into the [**Liccium platform**](https://liccium.com/) as a plugin. This enables creators, researchers, publishers, and platforms to declare AI involvement directly within their content authentication workflows. Designed to be intuitive yet technically robust, the plugin supports transparency, compliance, and interoperability by making AI contributions to content creation verifiable and persistently linked to the original work.
-
-<figure><img src="../.gitbook/assets/Screen.png" alt=""><figcaption><p>Liccium application</p></figcaption></figure>
 
 ## How does it work?
 

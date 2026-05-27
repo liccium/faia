@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Contact and Team
 
 If you are interested in collaborating or piloting the FAIA framework, please get in touch with us via e-mail: [info@faia.io](mailto:info@faia.io) or contact us directly:

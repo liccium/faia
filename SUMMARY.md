@@ -9,7 +9,7 @@
 ## Technology
 
 * [Vocabulary](technology/vocabulary.md)
-* [Implementation](technology/implementation.md)
+* [Reference Implementations](technology/implementation.md)
 
 ## Consortium
 
